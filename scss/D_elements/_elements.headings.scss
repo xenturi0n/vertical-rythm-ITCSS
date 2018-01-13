@@ -1,0 +1,41 @@
+$h3: $my-global-ratio * 1em;
+$h2: $my-global-ratio * $h3;
+$h1: $my-global-ratio * $h2;
+
+$h4: 1em / $my-global-ratio;
+$h5: $h4 / $my-global-ratio;
+$h6: $h5 / $my-global-ratio;
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem * $my-global-ratio;
+    margin-bottom: 1rem * $my-global-ratio;    
+}
+
+h1{
+   @include inuit-font-size(px($h1));
+//    background-color: lightblue;
+}
+
+h2{
+    @include inuit-font-size(px($h2));
+    // background-color: lightgray;
+ }
+
+ h3{
+    @include inuit-font-size(px($h3));
+    // background-color: lightseagreen;
+ }
+
+ h4{
+    @include inuit-font-size(px($h4));
+ }
+
+ h5{
+    @include inuit-font-size(px($h5));
+ }
+
+ h6{
+    @include inuit-font-size(px($h6));
+ }

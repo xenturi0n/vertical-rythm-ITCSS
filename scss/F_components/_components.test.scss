@@ -1,0 +1,11 @@
+.test{
+    @include inuit-font-size(px(1rem));
+}
+
+.lorem{
+    margin-bottom: 1rem * $my-global-ratio;
+
+    &:last-child{
+        margin-bottom: 2rem * $my-global-ratio;
+    } 
+}

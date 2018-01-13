@@ -1,0 +1,23 @@
+@function px($value, $context: $my-global-font-size){
+    @if is-relative-length($value){
+        @return (strip-unit($value) * strip-unit($context)) * 1px;
+    }@else{
+        @error "la unidad debe ser em o rem";
+    }
+}
+
+@function em($value, $context: $my-global-font-size){
+    @if is-absolute-length($value){
+        @return (strip-unit($value) / strip-unit($context)) * 1em;
+    }@else{
+        @error "la unidad debe ser px";
+    }
+}
+
+@function rem($value, $context: $my-global-font-size){
+    @if is-absolute-length($value){
+        @return (strip-unit($value) / strip-unit($context)) * 1em;
+    }@else{
+        @error "la unidad debe ser px";
+    }
+}

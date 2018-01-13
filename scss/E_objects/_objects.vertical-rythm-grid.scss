@@ -1,0 +1,10 @@
+.vertical-rythm-grid{
+    // background-color: rgb(244, 248, 252);
+    background-image: 
+    repeating-linear-gradient(
+      #fff,
+      #fff calc((1rem * #{$my-global-ratio}) - 1px),
+      rgb(248, 84, 8) calc(1rem * #{$my-global-ratio}),
+      rgb(248, 84, 8) calc(1rem * #{$my-global-ratio})
+    )
+}
