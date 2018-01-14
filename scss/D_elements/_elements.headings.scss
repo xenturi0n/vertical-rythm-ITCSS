@@ -9,36 +9,34 @@ $h6: $h5 / $my-global-ratio;
 h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
-    margin-top: (1rem * $my-global-ratio) * 2;
-    margin-bottom: 1rem * $my-global-ratio;
-    // border: 5px solid black;
-    background: deepskyblue;
-      
 }
 
 h1{
    @include inuit-font-size(px($h1));
-//    background-color: lightblue;
+    margin: $my-global-line-height * 2 0 0 0;
 }
 
 h2{
     @include inuit-font-size(px($h2));
-    // background-color: lightgray;
+    margin: $my-global-line-height * 2 0 0 0;
  }
 
  h3{
     @include inuit-font-size(px($h3));
-    // background-color: lightseagreen;
+    margin: 0;
  }
 
  h4{
     @include inuit-font-size(px($h4));
+    margin: 0;
  }
 
  h5{
     @include inuit-font-size(px($h5));
+    margin: 0;
  }
 
  h6{
     @include inuit-font-size(px($h6));
+    margin: 0;
  }

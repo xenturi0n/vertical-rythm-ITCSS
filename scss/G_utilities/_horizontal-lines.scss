@@ -1,0 +1,23 @@
+.u-horizontal-lines::before {
+    content:"";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    // background-size: 100% #{$my-global-line-height};
+    background-size: 100% #{$my-global-line-height};
+
+    background-image: linear-gradient(to bottom, 
+        transparent 0, 
+        transparent calc(#{$my-global-line-height} - 2px), 
+        red calc(#{$my-global-line-height} - 1px)
+        );
+
+    background-repeat: repeat;
+
+    z-index: -100;
+
+    position: fixed;
+}

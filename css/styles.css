@@ -5,7 +5,7 @@
 html {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  line-height: 25.888px; }
+  line-height: 25.92px; }
 
 body {
   margin: 0 auto;
@@ -19,52 +19,74 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  padding: 0;
-  margin-top: 3.236rem;
-  margin-bottom: 1.618rem;
-  background: deepskyblue; }
+  padding: 0; }
 
 h1 {
-  font-size: 67.77282px;
-  font-size: 4.2358rem;
-  line-height: 1.14595; }
+  font-size: 68.02445px;
+  font-size: 4.25153rem;
+  line-height: 1.14312;
+  margin: 51.84px 0 0 0; }
 
 h2 {
-  font-size: 41.88678px;
-  font-size: 2.61792rem;
-  line-height: 1.23609; }
+  font-size: 41.9904px;
+  font-size: 2.6244rem;
+  line-height: 1.23457;
+  margin: 51.84px 0 0 0; }
 
 h3 {
-  font-size: 25.888px;
-  font-size: 1.618rem;
-  line-height: 1; }
+  font-size: 25.92px;
+  font-size: 1.62rem;
+  line-height: 1;
+  margin: 0; }
 
 h4 {
-  font-size: 9.88875px;
-  font-size: 0.61805rem;
-  line-height: 2.61792; }
+  font-size: 9.87654px;
+  font-size: 0.61728rem;
+  line-height: 2.6244;
+  margin: 0; }
 
 h5 {
-  font-size: 6.11171px;
-  font-size: 0.38198rem;
-  line-height: 4.2358; }
+  font-size: 6.09663px;
+  font-size: 0.38104rem;
+  line-height: 4.25153;
+  margin: 0; }
 
 h6 {
-  font-size: 3.77733px;
-  font-size: 0.23608rem;
-  line-height: 6.85353; }
+  font-size: 3.76335px;
+  font-size: 0.23521rem;
+  line-height: 6.88748;
+  margin: 0; }
 
-.vertical-rythm-grid {
-  background-image: -webkit-repeating-linear-gradient(#fff, #fff calc((1rem * 1.618) - 1px), #f85408 calc(1rem * 1.618), #f85408 calc(1rem * 1.618));
-  background-image: -o-repeating-linear-gradient(#fff, #fff calc((1rem * 1.618) - 1px), #f85408 calc(1rem * 1.618), #f85408 calc(1rem * 1.618));
-  background-image: repeating-linear-gradient(#fff, #fff calc((1rem * 1.618) - 1px), #f85408 calc(1rem * 1.618), #f85408 calc(1rem * 1.618)); }
+p {
+  margin-bottom: 25.92px; }
+
+.o-vertical-rythm-grid {
+  background-image: -webkit-repeating-linear-gradient(#fff, #fff calc((1rem * 1.62) - 1px), #f82408 calc(1rem * 1.62), #f82408 calc(1rem * 1.62));
+  background-image: -o-repeating-linear-gradient(#fff, #fff calc((1rem * 1.62) - 1px), #f82408 calc(1rem * 1.62), #f82408 calc(1rem * 1.62));
+  background-image: repeating-linear-gradient(#fff, #fff calc((1rem * 1.62) - 1px), #f82408 calc(1rem * 1.62), #f82408 calc(1rem * 1.62)); }
 
 .test {
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.618; }
+  line-height: 1.62; }
 
 .lorem {
-  margin-bottom: 1.618rem; }
+  margin-bottom: 1.62rem; }
   .lorem:last-child {
-    margin-bottom: 3.236rem; }
+    margin-bottom: 3.24rem; }
+
+.u-horizontal-lines::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-size: 100% 25.92px;
+  background-image: -webkit-linear-gradient(top, transparent 0, transparent calc(25.92px - 2px), red calc(25.92px - 1px));
+  background-image: -o-linear-gradient(top, transparent 0, transparent calc(25.92px - 2px), red calc(25.92px - 1px));
+  background-image: linear-gradient(to bottom, transparent 0, transparent calc(25.92px - 2px), red calc(25.92px - 1px));
+  background-repeat: repeat;
+  z-index: -100;
+  position: fixed; }
