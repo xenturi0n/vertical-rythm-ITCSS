@@ -1,0 +1,9 @@
+.o-box{
+    background-color: rgba($color: #05fc95, $alpha: .6);
+    width: $my-global-line-height * 5;
+    height: $my-global-line-height * 5;
+
+    margin: $my-global-line-height #{$my-global-line-height / 2};
+
+    float: left;
+}

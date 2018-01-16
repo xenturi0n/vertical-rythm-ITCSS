@@ -14,8 +14,8 @@
   background-image: 
   repeating-linear-gradient(
     #fff,
-    #fff calc((1rem * #{$my-global-ratio}) - 1px),
-    rgb(248, 36, 8) calc(1rem * #{$my-global-ratio}),
-    rgb(248, 36, 8) calc(1rem * #{$my-global-ratio})
+    #fff $my-global-line-height - 1px,
+    rgb(248, 36, 8) $my-global-line-height - 1px,
+    rgb(248, 36, 8) $my-global-line-height
   );
 }

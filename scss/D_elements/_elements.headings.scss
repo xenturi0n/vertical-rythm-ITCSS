@@ -1,4 +1,4 @@
-$h3: $my-global-ratio * 1em;
+$h3: $my-global-ratio * 1rem;
 $h2: $my-global-ratio * $h3;
 $h1: $my-global-ratio * $h2;
 
@@ -14,29 +14,35 @@ h1,h2,h3,h4,h5,h6{
 h1{
    @include inuit-font-size(px($h1));
     margin: $my-global-line-height * 2 0 0 0;
+    padding: 0;
 }
 
 h2{
     @include inuit-font-size(px($h2));
     margin: $my-global-line-height * 2 0 0 0;
+    padding: 0;
  }
 
  h3{
     @include inuit-font-size(px($h3));
     margin: 0;
+    padding: 0;
  }
 
  h4{
     @include inuit-font-size(px($h4));
     margin: 0;
+    padding: 0;
  }
 
  h5{
     @include inuit-font-size(px($h5));
     margin: 0;
+    padding: 0;
  }
 
  h6{
     @include inuit-font-size(px($h6));
     margin: 0;
+    padding: 0;
  }

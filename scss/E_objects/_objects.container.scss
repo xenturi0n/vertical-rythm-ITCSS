@@ -1,0 +1,18 @@
+.o-container{
+    // background: red;
+    outline: 1px solid gray;
+    background-color: beige;
+    margin-bottom: $my-global-line-height * 4;
+    margin: #{$my-global-line-height / 2}  0;
+
+    &::after{
+        // visibility: hidden;
+        display: block;
+        content: "";
+        clear: both;
+    }
+}
+
+.o-row{
+    margin: $my-global-line-height / 2;
+}
